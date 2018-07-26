@@ -72,9 +72,8 @@ public class Main {
     // this method reads 'filename.txt' and print into console
     public static void read(String filename) {
 
-        System.out.println("* List of All " + filename + " *");
-
         try {
+            System.out.println("* List of All " + filename + " *");
 
             FileReader fr = new FileReader(filename + ".txt");
             BufferedReader br = new BufferedReader(fr);
